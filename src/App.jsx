@@ -7,14 +7,13 @@ import "./App.css";
 import TodoItems from "./components/TodoItems";
 import { useState } from "react";
 import WelcomeMessge from "./components/WelcomeMessge";
-
+// added this line to check git push cmd
 function App() {
   // const initialTodoItems = [];
 
   const [todoItems, setTodoitems] = useState([]);
 
   const handleNewItem = (itemName, itemDueDate) => {
-    
     const newTodoItems = [
       ...todoItems,
       { name: itemName, dueDate: itemDueDate },
