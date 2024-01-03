@@ -1,0 +1,22 @@
+
+input{
+  width: 100%;
+  color: rgb(0, 0, 0);
+  /* background-color: black; */
+  
+}
+
+
+.kg-button{
+  min-width: 80px;
+
+}
+.kg-row{
+  margin: 10px 5px;
+  
+
+}
+.todo-container{
+  background-color: black;
+  min-height:700px;
+}
